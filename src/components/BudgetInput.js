@@ -9,7 +9,7 @@ const BudgetInput = () => {
     }
 
     return (
-        <input type='text' 
+        <input type='number' 
         id='budget' 
         value={budget} 
         onChange={checkCost}>
